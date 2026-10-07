@@ -61,12 +61,12 @@ I build clean, functional, and user-centric websites, and I love turning complex
 <tr>
 <td width="50%" valign="top" align="left">
 <a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
-<i>No description yet</i><br>
+Personal website built with HTML, CSS and JavaScript<br>
 <sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
 </td>
 <td width="50%" valign="top" align="left">
 <a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
-<i>No description yet</i><br>
+My personal portfolio website, ranked #1 on Google<br>
 <sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
 </td>
 </tr>
