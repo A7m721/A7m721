@@ -55,7 +55,7 @@ def table(repos):
         if len(pair) == 1:
             cells += '\n<td width="50%"></td>'
         rows.append(f"<tr>\n{cells}\n</tr>")
-    return "<table>\n" + "\n".join(rows) + "\n</table>"
+       return '<table width="100%">\n' + "\n".join(rows) + "\n</table>"
 
 
 def main():
