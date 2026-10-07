@@ -57,7 +57,7 @@ I build clean, functional, and user-centric websites, and I love turning complex
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top" align="left">
 <a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
