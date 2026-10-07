@@ -53,6 +53,19 @@ I build clean, functional, and user-centric websites, and I love turning complex
 
 <div align="center">
 
+## projects
+
+<!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
+<!-- PROJECTS:START -->
+<sub>Pin your best repos on your profile and they will show up here.</sub>
+<!-- PROJECTS:END -->
+
+</div>
+
+---
+
+<div align="center">
+
 ## signals
 
 <table>
@@ -98,6 +111,14 @@ I build clean, functional, and user-centric websites, and I love turning complex
   <source media="(prefers-color-scheme: dark)"  srcset="card-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="card-langs-light.svg">
   <img src="card-langs-dark.svg" width="400" alt="most used languages">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="snake-light.svg">
+  <img src="snake-dark.svg" width="100%" alt="contribution snake">
 </picture>
 
 </div>
