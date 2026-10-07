@@ -1,0 +1,36 @@
+name: Snake and projects
+
+on:
+  schedule:
+    - cron: "30 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            ./snake-light.svg
+            ./snake-dark.svg?palette=github-dark
+
+      - name: Update projects section
+        env:
+          GH_LOGIN: A7m721
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 update_projects.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snake-light.svg snake-dark.svg README.md
+          git diff --cached --quiet || (git commit -m "chore: update snake and projects" && git pull --rebase && git push)
