@@ -57,7 +57,20 @@ I build clean, functional, and user-centric websites, and I love turning complex
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<sub>Pin your best repos on your profile and they will show up here.</sub>
+<table>
+<tr>
+<td width="50%" valign="top" align="left">
+<a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
+<i>No description yet</i><br>
+<sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
+</td>
+<td width="50%" valign="top" align="left">
+<a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
+<i>No description yet</i><br>
+<sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
+</td>
+</tr>
+</table>
 <!-- PROJECTS:END -->
 
 </div>
