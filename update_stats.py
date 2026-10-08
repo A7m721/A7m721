@@ -5,6 +5,8 @@ LOGIN = os.environ.get("GH_LOGIN", "A7m721")
 TOKEN = os.environ.get("GH_TOKEN", "")
 OUT = os.environ.get("OUT_DIR", ".")
 
+MARKUP = {"HTML", "CSS", "SCSS", "Sass", "Less"}
+
 THEMES = {
     "dark": dict(bg="#0b1220", panel="#0f1a2e", line="#1e2d45", mute="#7d8aa3", text="#e5e7eb",
                  acc="#aa9bef", acc2="#22d3ee"),
@@ -138,11 +140,14 @@ def card_langs(t, d):
 
 def radar_langs(t, d):
     c = THEMES[t]
-    langs = top_langs(d)
-    if len(langs) < 3:
+    code = {k: v for k, v in d["langs"].items() if k not in MARKUP}
+    items = sorted(code.items(), key=lambda kv: -kv[1][0])[:6]
+    if len(items) < 3:
         return None
-    mx = max(p for _, p, _ in langs)
-    data = [(n, 100 * (p / mx) ** 0.6) for n, p, _ in langs]
+    total = sum(s for _, (s, _) in items) or 1
+    pcts = [(name, size / total * 100) for name, (size, _) in items]
+    mx = max(p for _, p in pcts) or 1
+    data = [(n, max(18, 100 * (p / mx) ** 0.5)) for n, p in pcts]
     S, cx, cy, R, n = 400, 200, 205, 120, len(data)
     def pt(i, r):
         a = -math.pi / 2 + 2 * math.pi * i / n
