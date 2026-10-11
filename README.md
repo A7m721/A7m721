@@ -58,7 +58,32 @@ I build clean, functional, and user-centric websites, and I love turning complex
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<sub>Pin your best repos on your profile and they will show up here.</sub>
+<table width="100%">
+<tr>
+<td width="50%" valign="top" align="left">
+<a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
+Personal website built with HTML, CSS and JavaScript<br>
+<sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
+</td>
+<td width="50%" valign="top" align="left">
+<a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
+My personal portfolio website, ranked #1 on Google<br>
+<sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="left">
+<a href="https://github.com/A7m721/darstore"><b>darstore</b></a><br>
+Online store website for ...<br>
+<sub>● JavaScript · ★ 0 · 🌐 <a href="https://darstore-nu.vercel.app">Live</a></sub>
+</td>
+<td width="50%" valign="top" align="left">
+<a href="https://github.com/A7m721/alfarisbaber"><b>alfarisbaber</b></a><br>
+Barber shop website with booking page<br>
+<sub>● HTML · ★ 0 · 🌐 <a href="https://alfarisbaber.vercel.app">Live</a></sub>
+</td>
+</tr>
+</table>
 <!-- PROJECTS:END -->
 
 </div>
