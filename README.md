@@ -17,6 +17,7 @@
 <br>
 
 <!-- SOCIALS -->
+<a href="https://www.linkedin.com/in/ahmed-ramadan-63b696372"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://enginer-ahmed.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=aa9bef" alt="Portfolio"></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/eng_a7med_ra/"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=aa9bef" alt="Instagram"></a>&nbsp;&nbsp;
 <a href="https://www.tiktok.com/@eng_ar1"><img src="https://img.shields.io/badge/TikTok-0d1117?style=for-the-badge&logo=tiktok&logoColor=aa9bef" alt="TikTok"></a>
@@ -57,32 +58,7 @@ I build clean, functional, and user-centric websites, and I love turning complex
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
-Personal website built with HTML, CSS and JavaScript<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
-My personal portfolio website, ranked #1 on Google<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/darstore"><b>darstore</b></a><br>
-Online store website for ...<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://darstore-nu.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/alfarisbaber"><b>alfarisbaber</b></a><br>
-Barber shop website with booking page<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://alfarisbaber.vercel.app">Live</a></sub>
-</td>
-</tr>
-</table>
+<sub>Pin your best repos on your profile and they will show up here.</sub>
 <!-- PROJECTS:END -->
 
 </div>
