@@ -2,6 +2,6 @@
 <rect x="1" y="1" width="398" height="398" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
 <text x="20" y="30" fill="#0e7490" font-size="13" font-weight="700">LANG.RADAR</text>
 <polygon points="200.0,175.0 230.0,205.0 200.0,235.0 170.0,205.0" fill="none" stroke="#d0d7de"/><polygon points="200.0,145.0 260.0,205.0 200.0,265.0 140.0,205.0" fill="none" stroke="#d0d7de"/><polygon points="200.0,115.0 290.0,205.0 200.0,295.0 110.0,205.0" fill="none" stroke="#d0d7de"/><polygon points="200.0,85.0 320.0,205.0 200.0,325.0 80.0,205.0" fill="none" stroke="#d0d7de"/><line x1="200" y1="205" x2="200.0" y2="85.0" stroke="#d0d7de"/><line x1="200" y1="205" x2="320.0" y2="205.0" stroke="#d0d7de"/><line x1="200" y1="205" x2="200.0" y2="325.0" stroke="#d0d7de"/><line x1="200" y1="205" x2="80.0" y2="205.0" stroke="#d0d7de"/>
-<polygon points="200.0,85.0 275.1,205.0 200.0,230.9 178.4,205.0" fill="#6d4fd8" fill-opacity="0.35" stroke="#6d4fd8" stroke-width="2"/>
+<polygon points="200.0,85.0 273.6,205.0 200.0,230.4 178.4,205.0" fill="#6d4fd8" fill-opacity="0.35" stroke="#6d4fd8" stroke-width="2"/>
 <text x="200.0" y="67.0" fill="#1f2328" font-size="12" text-anchor="middle">JavaScript</text><text x="342.0" y="209.0" fill="#1f2328" font-size="12" text-anchor="start">TypeScript</text><text x="200.0" y="351.0" fill="#1f2328" font-size="12" text-anchor="middle">Python</text><text x="58.0" y="209.0" fill="#1f2328" font-size="12" text-anchor="end">PHP</text>
 </svg>
