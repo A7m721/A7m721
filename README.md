@@ -17,80 +17,36 @@
 <br>
 
 <!-- SOCIALS -->
+<a href="https://wa.me/201091889366"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/ahmed-ramadan-63b696372"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://enginer-ahmed.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=aa9bef" alt="Portfolio"></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/eng_a7med_ra/"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=aa9bef" alt="Instagram"></a>&nbsp;&nbsp;
 <a href="https://www.tiktok.com/@eng_ar1"><img src="https://img.shields.io/badge/TikTok-0d1117?style=for-the-badge&logo=tiktok&logoColor=aa9bef" alt="TikTok"></a>
 
-<br>
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=A7m721&style=flat&color=aa9bef&label=profile+views" alt="profile views">
 
-</div>
+<br><br>
 
----
+<!-- WHAT I BUILD -->
+<img src="what-i-build.svg" width="100%" alt="What I build">
 
-## This is me :)
+<br><br>
 
-Hi, I'm **Ahmed Ramadan** (Eng_a7med_ra), a Full Stack Web Developer.
-I build clean, functional, and user-centric websites, and I love turning complex problems into elegant digital products.
+<!-- STACK -->
+<img src="stack.svg" width="100%" alt="My tech stack">
 
-- 🚀 **Full Stack Web Developer**: crafting modern web experiences from frontend to backend.
-- 🥇 My site is officially **ranked #1 on Google**.
-- 🧩 I turn complex problems into simple, clean interfaces.
-- 🌱 Always learning and shipping real projects.
-- 🌐 My work: **[enginer-ahmed.vercel.app](https://enginer-ahmed.vercel.app/)**
-<br>
-
-<div align="center">
-
-## my perfect stack
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,python,postgres,firebase,git,github,vercel,vscode&perline=6" alt="tech stack">
-
-</div>
-
----
-
-<div align="center">
+<br><br>
 
 ## projects
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
-Personal website built with HTML, CSS and JavaScript<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
-My personal portfolio website, ranked #1 on Google<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/darstore"><b>darstore</b></a><br>
-Online store website for ...<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://darstore-nu.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/alfarisbaber"><b>alfarisbaber</b></a><br>
-Barber shop website with booking page<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://alfarisbaber.vercel.app">Live</a></sub>
-</td>
-</tr>
-</table>
+<sub>Pin your best repos on your profile and they will show up here.</sub>
 <!-- PROJECTS:END -->
 
-</div>
-
----
-
-<div align="center">
+<br>
 
 ## signals
 
@@ -117,11 +73,7 @@ Barber shop website with booking page<br>
 </tr>
 </table>
 
-</div>
-
----
-
-<div align="center">
+<br>
 
 ## Numbers matter? ohhh yes.
 
@@ -141,17 +93,16 @@ Barber shop website with booking page<br>
 
 <br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="snake-light.svg">
-  <img src="snake-dark.svg" width="100%" alt="contribution snake">
-</picture>
+## my contribution city
 
-</div>
+<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution city">
 
----
+<br><br>
 
-<div align="center">
+<!-- CONNECT -->
+<img src="connect.svg" width="100%" alt="Let's connect">
+
+<br>
 
 <sub>Built with love · @eng_a7med_ra</sub>
 
