@@ -148,7 +148,7 @@ def radar_langs(t, d):
     pcts = [(name, size / total * 100) for name, (size, _) in items]
     mx = max(p for _, p in pcts) or 1
     data = [(n, max(18, 100 * (p / mx) ** 0.5)) for n, p in pcts]
-    S, cx, cy, R, n = 400, 200, 205, 120, len(data)
+    S, cx, cy, R, n = 400, 200, 205, 100, len(data)
     def pt(i, r):
         a = -math.pi / 2 + 2 * math.pi * i / n
         return cx + r * math.cos(a), cy + r * math.sin(a)
