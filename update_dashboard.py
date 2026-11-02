@@ -72,6 +72,16 @@ def read(name, mode="r"):
     return None
 
 
+import random
+def particles(n, x0, x1, y0, y1, seed, cols):
+    rng = random.Random(seed); out = ""
+    for _ in range(n):
+        d = rng.uniform(6, 12)
+        out += (f'<circle cx="{rng.uniform(x0,x1):.0f}" cy="{rng.uniform(y0,y1):.0f}" r="{rng.uniform(1.1,2.6):.1f}" fill="{rng.choice(cols)}" '
+                f'style="--dy:-{rng.uniform(90,220):.0f}px;animation:rise {d:.1f}s linear infinite;animation-delay:-{rng.uniform(0,d):.1f}s"/>')
+    return out
+
+
 def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -128,7 +138,7 @@ def render(d):
         w = max(4, 210 * (size / total) / mx)
         rows += (f'<g class="fi" style="animation-delay:{.6+i*.12:.2f}s"><text x="456" y="{y+8}" class="jb" font-size="10.5" fill="#c9d1e0">{esc(name)}</text>'
                  f'<rect x="580" y="{y}" width="210" height="9" rx="4.5" fill="#fff" fill-opacity=".07"/>'
-                 f'<rect x="580" y="{y}" width="{w:.0f}" height="9" rx="4.5" fill="url(#og)"/>'
+                 f'<rect class="grw" style="animation-delay:{i*.18:.2f}s" x="580" y="{y}" width="{w:.0f}" height="9" rx="4.5" fill="url(#og)"/>'
                  f'<text x="840" y="{y+8}" class="jb" font-weight="700" font-size="10.5" fill="#fff" text-anchor="end">{pct:.1f}%</text></g>')
     skills = [("FRONTEND", "React · JavaScript · CSS", "#ff7a1a"), ("BACKEND", "Node · Python · Firebase", "#4aa3ff"),
               ("DATA", "SQL · PostgreSQL", "#ffb52e"), ("DEPLOY", "Vercel · Git · GitHub", "#2fd48a")]
@@ -146,6 +156,15 @@ def render(d):
 .fi{{opacity:0;animation:fi .7s ease-out forwards}}
 .pulse{{animation:pl 1.8s ease-in-out infinite}}
 .sway{{animation:sw 6s ease-in-out infinite;transform-origin:220px 0}}
+.f2{{animation:f2 6s ease-in-out infinite}}
+.spin{{animation:rot 40s linear infinite;transform-box:fill-box;transform-origin:center}}
+.grw{{animation:grw 9s ease-out infinite;transform-box:fill-box;transform-origin:left center}}
+.scn{{animation:scn 5s linear infinite;opacity:0}}
+@keyframes f2{{0%,100%{{transform:translateY(0)}}50%{{transform:translateY(-6px)}}}}
+@keyframes rot{{to{{transform:rotate(360deg)}}}}
+@keyframes grw{{0%{{transform:scaleX(0)}}22%,100%{{transform:scaleX(1)}}}}
+@keyframes scn{{0%{{transform:translateX(0);opacity:0}}8%{{opacity:.5}}92%{{opacity:.5}}100%{{transform:translateX(690px);opacity:0}}}}
+@keyframes rise{{0%{{opacity:0;transform:translateY(0)}}12%{{opacity:.85}}85%{{opacity:.45}}100%{{opacity:0;transform:translateY(var(--dy))}}}}
 @keyframes fi{{to{{opacity:1}}}}
 @keyframes pl{{0%,100%{{opacity:1}}50%{{opacity:.3}}}}
 @keyframes sw{{0%,100%{{transform:rotate(-.8deg)}}50%{{transform:rotate(.8deg)}}}}
@@ -163,9 +182,11 @@ def render(d):
 <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="24" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.6"/>
 <g clip-path="url(#cc)"><rect width="{W}" height="{H}" fill="url(#dots)"/>
 <circle cx="230" cy="260" r="300" fill="url(#gl)"/>
+<circle class="spin" cx="226" cy="330" r="235" fill="none" stroke="#ff7a1a" stroke-opacity=".14" stroke-width="2" stroke-dasharray="3 11"/>
+{particles(18, 40, 1140, 160, 560, 7, ["#ff7a1a", "#ffb52e", "#4aa3ff"])}
 <g class="sway"><path d="M200,0H252L246,92H206Z" fill="url(#ls)"/><text transform="translate(229,10) rotate(90)" class="jb" font-size="7" fill="#fff" fill-opacity=".7" letter-spacing="2">DEV · EGYPT</text>
 <rect x="206" y="86" width="40" height="14" rx="4" fill="#9aa1b3"/><circle cx="226" cy="110" r="9" fill="none" stroke="#9aa1b3" stroke-width="3"/></g>
-<g transform="translate(76,118) rotate(-2.2 150 215)" filter="url(#sh)">
+<g class="f2"><g transform="translate(76,118) rotate(-2.2 150 215)" filter="url(#sh)">
 <rect width="300" height="430" rx="20" fill="url(#cd)" stroke="#ff7a1a" stroke-opacity=".7" stroke-width="2"/>
 <circle cx="24" cy="26" r="7" fill="none" stroke="#ff7a1a" stroke-width="2"/><circle cx="24" cy="26" r="2.2" fill="#ff7a1a"/>
 <text x="40" y="30" class="jb" font-weight="700" font-size="9" fill="#ff7a1a" letter-spacing="1.8">DEV REGISTRATION</text>
@@ -180,7 +201,7 @@ def render(d):
 <text x="196" y="302" class="jb" font-size="7" fill="#6d7488" letter-spacing="1.4">BASE</text><text x="196" y="316" class="jb" font-weight="700" font-size="9.5" fill="#fff">{BASE}</text>
 {bars}
 <circle class="pulse" cx="28" cy="398" r="3.5" fill="#2fd48a"/><text x="38" y="401" class="jb" font-weight="700" font-size="8" fill="#2fd48a" letter-spacing="1.4">AVAILABLE</text>
-<text x="276" y="401" class="jb" font-size="8" fill="#7c8397" text-anchor="end">@{LOGIN} · {d["since"]}</text></g>
+<text x="276" y="401" class="jb" font-size="8" fill="#7c8397" text-anchor="end">@{LOGIN} · {d["since"]}</text></g></g>
 <text x="440" y="82" class="jb" font-weight="700" font-size="11" fill="#ff7a1a" letter-spacing="2.6">// DASHBOARD</text>
 <text x="440" y="120" class="sg" font-weight="700" font-size="28" fill="#fff">Stats from the field</text>
 <rect x="944" y="62" width="186" height="28" rx="14" fill="#2fd48a" fill-opacity=".1" stroke="#2fd48a" stroke-opacity=".5"/>
@@ -189,6 +210,7 @@ def render(d):
 <rect x="440" y="244" width="424" height="262" rx="14" fill="#fff" fill-opacity=".035" stroke="#fff" stroke-opacity=".09"/>
 <text x="456" y="272" class="jb" font-size="9" fill="#7c8397" letter-spacing="1.6">TOP LANGUAGES · BY CODE SIZE</text>
 {rows}
+<rect class="scn" x="440" y="136" width="2" height="370" fill="#ff7a1a"/>
 <text x="456" y="496" class="jb" font-size="8" fill="#5f667a">live from github.com/{LOGIN} · refreshed every 6 hours</text>
 <rect x="880" y="244" width="250" height="262" rx="14" fill="#fff" fill-opacity=".035" stroke="#fff" stroke-opacity=".09"/>
 <text x="896" y="272" class="jb" font-size="9" fill="#7c8397" letter-spacing="1.6">SKILL NATURE</text>
