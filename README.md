@@ -1,134 +1,56 @@
 <div align="center">
 
-<!-- BANNER - profile.sh --live -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
-  <img src="banner-dark.svg" width="100%" alt="profile.sh --live">
-</picture>
+<img src="hero.svg" alt="Hi, I'm Ahmed Ramadan, Full Stack Developer" width="100%"/>
 
-<br>
+<br/><br/>
 
-<!-- NAME / TAGLINE - animated typing -->
-<a href="https://github.com/A7m721">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=880&lines=Ahmed+-+Full+Stack+Web+Developer;Crafting+Modern+Web+Experiences;Site+Ranked+%231+on+Google" alt="typing banner">
-</a>
+<a href="https://wa.me/201091889366"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=0b0d13" alt="WhatsApp"/></a>
+<a href="https://www.linkedin.com/in/ahmed-ramadan-63b696372"><img src="https://img.shields.io/badge/LinkedIn-4aa3ff?style=for-the-badge&logo=linkedin&logoColor=0b0d13" alt="LinkedIn"/></a>
+<a href="https://enginer-ahmed.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-ff7a1a?style=for-the-badge&logo=vercel&logoColor=0b0d13" alt="Portfolio"/></a>
+<a href="https://www.instagram.com/eng_a7med_ra/"><img src="https://img.shields.io/badge/Instagram-c77dff?style=for-the-badge&logo=instagram&logoColor=0b0d13" alt="Instagram"/></a>
+<a href="https://www.tiktok.com/@eng_ar1"><img src="https://img.shields.io/badge/TikTok-e2383f?style=for-the-badge&logo=tiktok&logoColor=0b0d13" alt="TikTok"/></a>
 
-<br>
+<br/><br/>
 
-<!-- SOCIALS -->
-<a href="https://wa.me/201091889366"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/ahmed-ramadan-63b696372"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
-<a href="https://enginer-ahmed.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=aa9bef" alt="Portfolio"></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/eng_a7med_ra/"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=aa9bef" alt="Instagram"></a>&nbsp;&nbsp;
-<a href="https://www.tiktok.com/@eng_ar1"><img src="https://img.shields.io/badge/TikTok-0d1117?style=for-the-badge&logo=tiktok&logoColor=aa9bef" alt="TikTok"></a>
+<img src="way.svg" alt="My work way" width="100%"/>
 
-<br><br>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=A7m721&style=flat&color=aa9bef&label=profile+views" alt="profile views">
+<img src="arsenal.svg" alt="Tech arsenal" width="100%"/>
 
-<br><br>
+<br/><br/>
 
-<!-- WHAT I BUILD -->
-<img src="what-i-build.svg" width="100%" alt="What I build">
+<img src="dashboard.svg" alt="ID card and live GitHub dashboard" width="100%"/>
 
-<br><br>
-
-<!-- STACK -->
-<img src="stack.svg" width="100%" alt="My tech stack">
-
-<br><br>
+<br/><br/>
 
 ## projects
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
-Personal website built with HTML, CSS and JavaScript<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
-My personal portfolio website, ranked #1 on Google<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/darstore"><b>darstore</b></a><br>
-Online store website for ...<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://darstore-nu.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/alfarisbaber"><b>alfarisbaber</b></a><br>
-Barber shop website with booking page<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://alfarisbaber.vercel.app">Live</a></sub>
-</td>
-</tr>
-</table>
+<sub>Pin your best repos on your profile and they will show up here.</sub>
 <!-- PROJECTS:END -->
 
-<br>
+<a href="https://github.com/A7m721?tab=repositories"><b>→ See all repositories</b></a>
 
-## signals
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="radar-light.svg">
-  <img src="radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="radar-langs-light.svg">
-  <img src="radar-langs-dark.svg" width="400" alt="language radar chart">
-</picture>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Numbers matter? ohhh yes.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="card-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="card-stats-light.svg">
-  <img src="card-stats-dark.svg" width="480" alt="GitHub statistics">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="card-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="card-langs-light.svg">
-  <img src="card-langs-dark.svg" width="400" alt="most used languages">
-</picture>
-
-<br><br>
+<br/><br/>
 
 ## my contribution city
 
-<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution city">
+*Every commit raises another building. Rebuilt automatically every day.*
 
-<br><br>
+<img src="profile-3d-contrib/profile-night-view.svg" alt="3D contribution city" width="100%"/>
 
-<!-- CONNECT -->
-<img src="connect.svg" width="100%" alt="Let's connect">
+<br/><br/>
 
-<br>
+<img src="connect.svg" alt="Let's connect" width="100%"/>
 
-<sub>Built with love · @eng_a7med_ra</sub>
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=A7m721&color=ff7a1a&style=for-the-badge&label=VISITORS" alt="Profile views"/>
+
+<br/><br/>
+
+**Ship clean. Rank high. Keep building.**
 
 </div>
