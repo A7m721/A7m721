@@ -60,6 +60,8 @@ Barber shop website with booking page<br>
 
 <br/><br/>
 
+<img src="runner.svg" alt="running developer" width="230"/>
+
 ## my contribution city
 
 *Every commit raises another building. Rebuilt automatically every day.*
@@ -75,6 +77,8 @@ Barber shop website with booking page<br>
 <img src="https://komarev.com/ghpvc/?username=A7m721&color=ff7a1a&style=for-the-badge&label=VISITORS" alt="Profile views"/>
 
 <br/><br/>
+
+<img src="walker.svg" alt="walking developer" width="200"/>
 
 **Ship clean. Rank high. Keep building.**
 
