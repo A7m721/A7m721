@@ -82,6 +82,19 @@ def particles(n, x0, x1, y0, y1, seed, cols):
     return out
 
 
+PALETTE = {
+    "#ff7a1a": "#2dd4bf", "#ffb52e": "#5eead4", "#ff5f1f": "#8b5cf6", "#ffd36b": "#99f6e4",
+    "#e2383f": "#f472b6", "#c62832": "#7c3aed", "#4aa3ff": "#a78bfa",
+    "#0c0e15": "#08111a", "#121420": "#0d1824",
+}
+
+
+def recolor(x):
+    for a, b in PALETTE.items():
+        x = x.replace(a, b)
+    return x
+
+
 def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -184,9 +197,9 @@ def render(d):
 <circle cx="230" cy="260" r="300" fill="url(#gl)"/>
 <circle class="spin" cx="226" cy="330" r="235" fill="none" stroke="#ff7a1a" stroke-opacity=".14" stroke-width="2" stroke-dasharray="3 11"/>
 {particles(18, 40, 1140, 160, 560, 7, ["#ff7a1a", "#ffb52e", "#4aa3ff"])}
-<g class="sway"><path d="M200,0H252L246,92H206Z" fill="url(#ls)"/><text transform="translate(229,10) rotate(90)" class="jb" font-size="7" fill="#fff" fill-opacity=".7" letter-spacing="2">DEV · EGYPT</text>
+<g><animateTransform attributeName="transform" type="rotate" values="-3.4 226 0;3.4 226 0;-3.4 226 0" dur="5s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/><g><path d="M200,0H252L246,92H206Z" fill="url(#ls)"/><text transform="translate(229,10) rotate(90)" class="jb" font-size="7" fill="#fff" fill-opacity=".7" letter-spacing="2">DEV · EGYPT</text>
 <rect x="206" y="86" width="40" height="14" rx="4" fill="#9aa1b3"/><circle cx="226" cy="110" r="9" fill="none" stroke="#9aa1b3" stroke-width="3"/></g>
-<g class="f2"><g transform="translate(76,118) rotate(-2.2 150 215)" filter="url(#sh)">
+<g transform="translate(76,118)" filter="url(#sh)"><g><animateTransform attributeName="transform" type="rotate" values="1.8 150 -8;-1.8 150 -8;1.8 150 -8" dur="5s" begin="-0.5s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
 <rect width="300" height="430" rx="20" fill="url(#cd)" stroke="#ff7a1a" stroke-opacity=".7" stroke-width="2"/>
 <circle cx="24" cy="26" r="7" fill="none" stroke="#ff7a1a" stroke-width="2"/><circle cx="24" cy="26" r="2.2" fill="#ff7a1a"/>
 <text x="40" y="30" class="jb" font-weight="700" font-size="9" fill="#ff7a1a" letter-spacing="1.8">DEV REGISTRATION</text>
@@ -201,7 +214,7 @@ def render(d):
 <text x="196" y="302" class="jb" font-size="7" fill="#6d7488" letter-spacing="1.4">BASE</text><text x="196" y="316" class="jb" font-weight="700" font-size="9.5" fill="#fff">{BASE}</text>
 {bars}
 <circle class="pulse" cx="28" cy="398" r="3.5" fill="#2fd48a"/><text x="38" y="401" class="jb" font-weight="700" font-size="8" fill="#2fd48a" letter-spacing="1.4">AVAILABLE</text>
-<text x="276" y="401" class="jb" font-size="8" fill="#7c8397" text-anchor="end">@{LOGIN} · {d["since"]}</text></g></g>
+<text x="276" y="401" class="jb" font-size="8" fill="#7c8397" text-anchor="end">@{LOGIN} · {d["since"]}</text></g></g></g>
 <text x="440" y="82" class="jb" font-weight="700" font-size="11" fill="#ff7a1a" letter-spacing="2.6">// DASHBOARD</text>
 <text x="440" y="120" class="sg" font-weight="700" font-size="28" fill="#fff">Stats from the field</text>
 <rect x="944" y="62" width="186" height="28" rx="14" fill="#2fd48a" fill-opacity=".1" stroke="#2fd48a" stroke-opacity=".5"/>
@@ -231,5 +244,5 @@ if __name__ == "__main__":
     else:
         d = fetch()
     with open(os.path.join(OUT, "dashboard.svg"), "w", encoding="utf-8") as f:
-        f.write(render(d))
+        f.write(recolor(render(d)))
     print("dashboard.svg written:", d["repos"], "repos,", d["contribs"], "contributions")
