@@ -28,10 +28,7 @@
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<a href="https://github.com/A7m721/ahmed-ra"><img src="projects/ahmed-ra.svg" width="49%" alt="ahmed-ra"/></a>
-<a href="https://github.com/A7m721/Enginer-ahmed"><img src="projects/enginer-ahmed.svg" width="49%" alt="Enginer-ahmed"/></a>
-<a href="https://github.com/A7m721/darstore"><img src="projects/darstore.svg" width="49%" alt="darstore"/></a>
-<a href="https://github.com/A7m721/alfarisbaber"><img src="projects/alfarisbaber.svg" width="49%" alt="alfarisbaber"/></a>
+<sub>Pin your best repos on your profile and they will show up here.</sub>
 <!-- PROJECTS:END -->
 
 <a href="https://github.com/A7m721?tab=repositories"><b>→ See all repositories</b></a>
@@ -56,6 +53,6 @@
 
 <br/><br/>
 
-**Ship clean. Rank high. Keep building.**
+<img src="outro.svg" alt="The end. Thanks for stopping by." width="720"/>
 
 </div>
