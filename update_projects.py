@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Fills the PROJECTS section of README.md from the repos pinned on the profile."""
 import html, json, os, re, sys, urllib.request
 
 LOGIN = os.environ.get("GH_LOGIN", "A7m721")
