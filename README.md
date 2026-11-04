@@ -4,11 +4,11 @@
 
 <br/><br/>
 
-<a href="https://wa.me/201091889366"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=0b0d13" alt="WhatsApp"/></a>
-<a href="https://www.linkedin.com/in/ahmed-ramadan-63b696372"><img src="https://img.shields.io/badge/LinkedIn-4aa3ff?style=for-the-badge&logo=linkedin&logoColor=0b0d13" alt="LinkedIn"/></a>
-<a href="https://enginer-ahmed.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-ff7a1a?style=for-the-badge&logo=vercel&logoColor=0b0d13" alt="Portfolio"/></a>
-<a href="https://www.instagram.com/eng_a7med_ra/"><img src="https://img.shields.io/badge/Instagram-c77dff?style=for-the-badge&logo=instagram&logoColor=0b0d13" alt="Instagram"/></a>
-<a href="https://www.tiktok.com/@eng_ar1"><img src="https://img.shields.io/badge/TikTok-e2383f?style=for-the-badge&logo=tiktok&logoColor=0b0d13" alt="TikTok"/></a>
+<a href="https://wa.me/201091889366"><img src="https://img.shields.io/badge/WhatsApp-4ade80?style=for-the-badge&logo=whatsapp&logoColor=08111a" alt="WhatsApp"/></a>
+<a href="https://www.linkedin.com/in/ahmed-ramadan-63b696372"><img src="https://img.shields.io/badge/LinkedIn-a78bfa?style=for-the-badge&logo=linkedin&logoColor=08111a" alt="LinkedIn"/></a>
+<a href="https://enginer-ahmed.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-2dd4bf?style=for-the-badge&logo=vercel&logoColor=08111a" alt="Portfolio"/></a>
+<a href="https://www.instagram.com/eng_a7med_ra/"><img src="https://img.shields.io/badge/Instagram-f472b6?style=for-the-badge&logo=instagram&logoColor=08111a" alt="Instagram"/></a>
+<a href="https://www.tiktok.com/@eng_ar1"><img src="https://img.shields.io/badge/TikTok-5eead4?style=for-the-badge&logo=tiktok&logoColor=08111a" alt="TikTok"/></a>
 
 <br/><br/>
 
@@ -28,32 +28,7 @@
 
 <!-- Auto-filled from your pinned repos. Do not remove the two marker lines. -->
 <!-- PROJECTS:START -->
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/ahmed-ra"><b>ahmed-ra</b></a><br>
-Personal website built with HTML, CSS and JavaScript<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://ahmed-ra.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/Enginer-ahmed"><b>Enginer-ahmed</b></a><br>
-My personal portfolio website, ranked #1 on Google<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://enginer-ahmed.vercel.app">Live</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/darstore"><b>darstore</b></a><br>
-Online store website for ...<br>
-<sub>● JavaScript · ★ 0 · 🌐 <a href="https://darstore-nu.vercel.app">Live</a></sub>
-</td>
-<td width="50%" valign="top" align="left">
-<a href="https://github.com/A7m721/alfarisbaber"><b>alfarisbaber</b></a><br>
-Barber shop website with booking page<br>
-<sub>● HTML · ★ 0 · 🌐 <a href="https://alfarisbaber.vercel.app">Live</a></sub>
-</td>
-</tr>
-</table>
+<sub>Pin your best repos on your profile and they will show up here.</sub>
 <!-- PROJECTS:END -->
 
 <a href="https://github.com/A7m721?tab=repositories"><b>→ See all repositories</b></a>
@@ -74,7 +49,7 @@ Barber shop website with booking page<br>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=A7m721&color=ff7a1a&style=for-the-badge&label=VISITORS" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=A7m721&color=2dd4bf&style=for-the-badge&label=VISITORS" alt="Profile views"/>
 
 <br/><br/>
 
